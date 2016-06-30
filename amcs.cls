@@ -71,7 +71,7 @@
       \vspace{1cm}
       \begin{flushright}
         \begin{minipage}[t][2cm][t]{8cm}
-          \textsc{<<Утверждаю>>}\\
+          \textsc{<<Допущено к защите>>}\\
           зав. кафедрой \camcs@chair@short,\\
           \camcs@chair@head@title\ \rule[-4pt]{3.5cm}{0.2pt}~\camcs@chair@head\\
           <<\rule[-4pt]{1cm}{0.2pt}>>~\rule[-4pt]{4cm}{0.2pt}\the\year\,г.

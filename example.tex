@@ -1,0 +1,73 @@
+\documentclass{amcs}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+
+%Полезные математические пакеты
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+
+%%% Графика %%%
+\usepackage{graphicx}
+
+%%% Тексты программ %%%
+\usepackage{listings}
+\lstset{
+  breaklines=true,
+  numbers=left,
+  numberstyle={\scriptsize},
+  showstringspaces=false,
+  tabsize=4,
+ }
+
+\begin{document}
+
+\settitle{Разведение желторотика маслянистого в условиях поймы Днестра}
+\setstudent{403}{Иванова Иванна Ивановна}
+\setfemale
+\setsupervisor{ст. преп. кафедры ПМиИ}{Великодный В. И.}
+\setchair{ПМиИ}{Прикладной математики и информатики}{доц.}{Коровай А. В.}
+\maketitlepage
+
+\begin{abstract}
+  Аннотация
+\end{abstract}
+
+\tableofcontents
+
+\ssection{Введение}
+Это введение.
+
+
+\section{Первый раздел}
+\subsection{Подраздел}
+\subsubsection{Подподраздел}
+Текст раздела.
+
+\section{Второй раздел}
+Текст второго раздела.
+
+\ssection{Заключение}
+
+
+\begin{thebibliography}{99}
+\bibitem{b0}
+  Флах П.
+  Машинное обучение. Наука и искусство построения алгоритмов, которые
+  извлекают знания из данных / пер. с англ. А. А. Слинкина. --- М.: ДМК Пресс,
+  2015. --- 400 с.
+\end{thebibliography}
+
+% Прложение
+\appendix
+
+\section{Исходники}
+\begin{lstlisting}[language=Python]
+x = 5
+print(range(x))
+\end{lstlisting}
+
+\end{document}

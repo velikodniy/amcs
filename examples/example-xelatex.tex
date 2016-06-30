@@ -1,0 +1,93 @@
+\documentclass{amcs}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% Полезные математические пакеты
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% Математические шрифты
+\usepackage{mathspec}
+\usepackage[charter]{mathdesign}
+
+% Специальные символы
+\usepackage{gensymb}
+
+% Шрифты документа
+\usepackage{fontspec}
+
+\defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
+\setmainfont[
+  SmallCapsFont={Charis SIL Compact},
+  SmallCapsFeatures={Letters=SmallCaps},
+]{Charis SIL Compact}
+\setsansfont{Input Sans}
+\setmonofont{Input Mono Condensed}
+
+% Семейства шрифтов
+\newfontfamily\lstfont{Input Mono Condensed}
+
+% Графика
+\usepackage{graphicx}
+
+% Тексты программ
+\usepackage{listings}
+\lstset{
+  basicstyle={\small\lstfont},
+  breaklines=true,
+  numbers=left,
+  numberstyle={\scriptsize},
+  showstringspaces=false,
+  tabsize=4,
+ }
+
+\begin{document}
+
+\settitle{Разведение желторотика маслянистого в условиях поймы Днестра}
+\setstudent{403}{Иванова Иванна Ивановна}
+\setfemale
+\setsupervisor{ст. преп. кафедры ПМиИ}{Великодный В. И.}
+\setchair{ПМиИ}{Кафедра прикладной математики и информатики}{доц.}{Коровай А. В.}
+\maketitlepage
+
+\begin{abstract}
+  Аннотация
+\end{abstract}
+
+\tableofcontents
+
+\ssection{Введение}
+Это введение.
+
+\section{Первый раздел}
+\subsection{Подраздел}
+\subsubsection{Подподраздел}
+Текст раздела.
+
+\section{Второй раздел}
+Текст второго раздела.
+
+\ssection{Заключение}
+Это заключение.
+
+\begin{thebibliography}{99}
+\bibitem{b0}
+  Флах П.
+  Машинное обучение. Наука и искусство построения алгоритмов, которые
+  извлекают знания из данных / пер. с англ. А. А. Слинкина. --- М.: ДМК Пресс,
+  2015. --- 400 с.
+\end{thebibliography}
+
+% Прложение
+\appendix
+
+\section{Исходники}
+\begin{lstlisting}[language=Python]
+x = 5
+print(range(x))
+\end{lstlisting}
+
+\end{document}

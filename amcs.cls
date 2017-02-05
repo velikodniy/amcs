@@ -25,6 +25,11 @@
 
 \newcommand{\camcs@em}[1]{\textbf{\textsf{#1}}}
 
+\newcommand{\camcs@courseline}{Квалификационная работа}
+\newcommand{\setcourse}[1]{
+  \renewcommand{\camcs@courseline}{Курсовая работа\\по дисциплине <<#1>>}
+}
+
 \newcommand{\camcs@title}{\camcs@em{title}}
 \newcommand{\settitle}[1]{
   \renewcommand{\camcs@title}{#1}
@@ -78,6 +83,7 @@
         \end{minipage}
       \end{flushright}
       \vspace{2cm}
+      {\large \camcs@courseline}\\[6pt]
       {\Large \textsc{\camcs@title}}
       \vspace{4cm}
       \begin{flushright}

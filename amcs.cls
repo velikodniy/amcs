@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{amcsdw}[2016/06/12 The Chair of Applied Mathematics and Computer Science - Diploma Work]
+\ProvidesClass{amcs}[2016/06/12 The Chair of Applied Mathematics and Computer Science - Diploma Work]
 
 %% Load base
 \LoadClass[12pt]{article}

@@ -67,8 +67,17 @@
   \renewcommand{\camcs@chair@head@title}{#3}
 }
 
+\RequirePackage{fancyhdr}
+\fancypagestyle{titlepagestyle}
+{
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyhf{}
+  \fancyfoot[C]{Тирасполь, \the\year}
+}
+
 \newcommand{\maketitlepage}{
   \begin{titlepage}
+    \thispagestyle{titlepagestyle}
     \begin{center}
       \textup{Приднестровский государственный университет им. Т. Г. Шевченко}\\
       \textup{Физико-математический факультет}\\
@@ -83,7 +92,7 @@
           <<\rule[-4pt]{1cm}{0.2pt}>>~\rule[-4pt]{4cm}{0.2pt}\the\year\,г.
         \end{minipage}
       \end{flushright}
-      \vspace{2cm}
+      \vspace{3cm}
       {\large \camcs@courseline}\\[6pt]
       {\Large \textsc{\camcs@title}}
       \vspace{4cm}
@@ -98,7 +107,6 @@
         \end{minipage}
       \end{flushright}
       \vfill
-      Тирасполь, \the\year
     \end{center}
   \end{titlepage}
   \newpage

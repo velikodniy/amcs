@@ -76,6 +76,7 @@
       \vspace{1cm}
       \begin{flushright}
         \begin{minipage}[t][2cm][t]{8cm}
+          \small
           \textsc{<<Допущено к защите>>}\\
           зав. кафедрой \camcs@chair@short,\\
           \camcs@chair@head@title\ \rule[-4pt]{3.5cm}{0.2pt}~\camcs@chair@head\\
